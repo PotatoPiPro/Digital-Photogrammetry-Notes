@@ -1,0 +1,77 @@
+
+\documentclass[12pt,a4paper]{article}
+
+% 中文支持
+\usepackage[UTF8]{ctex}
+
+% 数学公式
+\usepackage{amsmath,amssymb}
+
+% 图片
+\usepackage{graphicx}
+
+% 页面设置
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\title{Digital Photogrammetry Notes}
+\author{PotatoPi}
+\date{2026 Fall}
+
+\begin{document}
+
+\maketitle
+
+\section{引入}
+\subsection{关于数字摄影测量}
+\subsection{影像、采样}
+
+\section{重采样}
+\subsection{双线性插值}
+\subsection{双三次卷积}
+\subsection{最邻近像元法}
+
+\section{特征提取}
+\subsection{点特征提取}
+\subsubsection{Moravec算子}
+\subsubsection{Forstner算子}
+\subsubsection{Harris算子}
+
+\subsection{线特征提取}
+\subsubsection{一阶差分算子}
+\subsubsection{二阶差分算子}
+
+\subsection{Hough变换}
+
+\section{摄影测量解析基础}
+\subsection{内定向}
+\subsection{核线几何关系解析}
+
+\section{影像匹配}
+\subsection{基本概念}
+\subsection{匹配算法}
+
+\section{最小二乘影像匹配}
+
+行内公式：$E=mc^2$
+
+独立公式：
+
+\[
+    \frac{\partial f}{\partial x}
+    =
+    \lim_{h\to 0}
+    \frac{f(x+h)-f(x)}{h}
+\]
+
+
+
+\[
+A =
+\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+\]
+
+\end{document}
